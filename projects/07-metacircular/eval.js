@@ -16,7 +16,7 @@ var assert = require("assert");
 //
 // You can run this file by running the following command:
 //
-//      nodejs eval.js
+//      node eval.js
 //
 // Initially, you should see a bunch of undefineds and failing tests.
 
