@@ -20,6 +20,18 @@ import Data.List
 -- your changes in the repl.  Note that you will lose any local bindings
 -- when you reload, so if you want some to persist put it in this file.
 --
+-- If you need to install a copy of GHC Haskell, you have two options:
+--
+--    1. If you are an NYU student, there is installation of Haskell on
+--       'access.cims.nyu.edu' (accessible using 'ssh username@access.cims.nyu.edu').
+--       You have been automatically enrolled for access to CIMS by
+--       enrolling in this class.  Just SSH into this server and you can
+--       use GHCi directly.
+--
+--    2. Use ghcup to install a version of GHC: https://www.haskell.org/ghcup/
+--       The defaults will work fine and all of the labs in this class
+--       have been tested from GHC 7.2 up to GHC 9.0
+--
 -- Credit: the structure of this assignment is inspired by
 -- https://www.cis.upenn.edu/~cis194/spring13/hw/01-intro.pdf
 
