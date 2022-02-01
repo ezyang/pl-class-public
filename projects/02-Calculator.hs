@@ -28,7 +28,9 @@ module Calculator where
 -- username@access.cims.nyu.edu') has QuickCheck preinstalled and this is
 -- all you need to do; if you are using your own installation of Haskell
 -- you may have to install QuickCheck.  If you have Cabal installed,
--- you can install QuickCheck using 'cabal install QuickCheck'
+-- you can install QuickCheck using 'cabal install --lib QuickCheck' (
+-- if the --lib flag is not recognized, run 'cabal install QuickCheck'
+-- instead).
 --
 -- (Guru meditation: This lab should work with GHC 7.6 or later, and
 -- with QuickCheck 2.6 or later, and possibly more.  Let us know if

@@ -9,7 +9,11 @@ import Data.List
 -- that is stylish and concise.  Try to write small functions that
 -- just perform a single task, and then combine those simple functions
 -- into more complex functions.  Don't repeat yourself: write one
--- function for a task and reuse them as necessary.
+-- function for a task and reuse them as necessary.  We will NOT be
+-- docking points if your code is inefficient, but try to write code
+-- that avoids asymptotic inefficiencies as best you know how
+-- (performance tuning Haskell is a topic that could have its entire
+-- own course.)
 --
 -- The recommended way to run this code is to load it into ghci:
 --
@@ -71,6 +75,8 @@ import Data.List
 
 -- First, we need to find the digits of the UPC code.  Define a function
 -- toDigits that converts a positive integer into a list of digits.
+-- (The function to do whatever you like if the precondition is not
+-- satisfied.)
 --
 -- Example:
 --  toDigits 1234 == [1,2,3,4]
@@ -96,7 +102,8 @@ padZeros = undefined
 -- END padZeros (DO NOT DELETE THIS LINE)
 
 -- Next, we need to extract the odd, even and check digits from the
--- digits.
+-- digits.  For these functions, you may assume that the list of
+-- input digits is even in length.
 --
 -- Example:
 --  oddDigits [1,2,3,4] = [1,3]
